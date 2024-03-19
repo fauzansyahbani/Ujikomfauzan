@@ -20,7 +20,7 @@ $result = $conn->query($query);
 <Link rel="stylesheet" href="../../assets/style/navbar.css">
 </head>
 <body>
-<?php include 'navbar.php';?>
+<?php include '../navbar.php';?>
 <div class="header">
         <h1>Hello, <?php echo htmlspecialchars($_SESSION['nama']); ?>! Welcome to product management!</h1>
 </div>
