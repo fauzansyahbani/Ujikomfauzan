@@ -17,8 +17,12 @@ $realName = $_SESSION['nama'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/style/dashboard.css">
+    <link rel="stylesheet" href="../assets/style/navbar.css">
 </head>
 <body>
+    <?php
+    include 'navbar.php'; 
+    ?>
     <h1>Hello, <?php echo htmlspecialchars($realName);?>! Welcome to the dashboard</h1>
     <form action="../db/DB_logout.php" method="post">
     <button type="submit" class="btn-logout">Log out</button>
