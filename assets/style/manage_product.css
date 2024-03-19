@@ -1,6 +1,8 @@
 body {
     background-color: #f2f2f2;
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -8,16 +10,15 @@ body {
     color: #000000;
     padding: 20px;
     text-align: center;
-    max-width: 10002px;
 }
 
 .form-container {
     background-color: #fff;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
+    max-width: 600px;
 }
 
 form {
@@ -66,7 +67,6 @@ th, td {
 th {
     background-color: #e66c6c;
     color: #fff;
-    max-width: 1000px;
 }
 
 .actton-buttons {

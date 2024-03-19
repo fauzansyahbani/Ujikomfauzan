@@ -17,7 +17,7 @@
                 <li><a href="../dashboard/">Dashboard</a></li>
                 <li><a href="../kasir/manage_product.php">Manage Products</a></li>
                 <li><a href="../transaksi/">Transaksi</a></li>
-                <li><a href="../db/db_logout.php">Logout</a></li>
+                <li><a href="../../db/db_logout.php">Logout</a></li>
             </ul>
         </div>
     </div>
